@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="960" viewBox="0 0 1120 960">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#091321"/>
+      <stop offset="1" stop-color="#050914"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111f31"/>
+      <stop offset="1" stop-color="#0a1423"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3a2"/>
+      <stop offset="1" stop-color="#41e8d0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#16d9b2" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#16d9b2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+
+  <rect width="1120" height="960" fill="#030711"/>
+  <rect x="80" y="65" width="960" height="830" rx="28" fill="#16d9b2" opacity=".06" filter="url(#shadow)"/>
+  <rect x="80" y="65" width="960" height="830" rx="25" fill="url(#background)" stroke="#1a3444" stroke-width="2"/>
+  <path d="M80 90a25 25 0 0 1 25-25h910a25 25 0 0 1 25 25v58H80z" fill="#0d1929"/>
+  <path d="M80 148h960" stroke="#1a3444" stroke-width="2"/>
+
+  <circle cx="116" cy="108" r="8" fill="#fb7185"/>
+  <circle cx="144" cy="108" r="8" fill="#fbbf24"/>
+  <circle cx="172" cy="108" r="8" fill="#34d399"/>
+  <text x="215" y="111" fill="#f1f7fb" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="1.8">TRANSLUXION</text>
+  <text x="215" y="135" fill="#70849a" font-family="Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="2.3">DESKTOP CONTROL</text>
+  <rect x="837" y="94" width="157" height="34" rx="17" fill="#102d2c" stroke="#1d655b"/>
+  <circle cx="857" cy="111" r="5" fill="#34e8b4"/>
+  <text x="871" y="116" fill="#a5f3df" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing=".8">LOCAL SESSION</text>
+
+  <text x="130" y="210" fill="#79a4ad" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3">PERSONAL DESKTOP UTILITY</text>
+  <text x="130" y="262" fill="#f5faff" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="600">Your focus, in motion.</text>
+  <text x="130" y="293" fill="#94a7ba" font-family="Segoe UI, Arial, sans-serif" font-size="16">A simple local input cycle, controlled by you.</text>
+
+  <rect x="130" y="328" width="860" height="300" rx="20" fill="url(#panel)" stroke="#203849" stroke-width="2"/>
+  <ellipse cx="560" cy="462" rx="220" ry="145" fill="url(#glow)"/>
+  <circle cx="560" cy="463" r="111" fill="#0b1623" stroke="#173444" stroke-width="2"/>
+  <circle cx="560" cy="463" r="94" fill="none" stroke="#1d3443" stroke-width="8"/>
+  <path d="M560 369a94 94 0 1 1-83 50" fill="none" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="477" cy="419" r="7" fill="#4bf0ce"/>
+  <text x="560" y="451" text-anchor="middle" fill="#8096a9" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3">TEAMS STATUS</text>
+  <text x="560" y="489" text-anchor="middle" fill="#f4fbff" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="600">ACTIVE</text>
+  <text x="560" y="516" text-anchor="middle" fill="#38dcb5" font-family="Consolas, monospace" font-size="14">NEXT PULSE  00:42</text>
+  <rect x="845" y="352" width="115" height="29" rx="14" fill="#142a32" stroke="#1b4a4b"/>
+  <circle cx="864" cy="366.5" r="4" fill="#38dcb5"/>
+  <text x="877" y="371" fill="#91c9bd" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1">RUNNING</text>
+  <text x="560" y="595" text-anchor="middle" fill="#758ba0" font-family="Segoe UI, Arial, sans-serif" font-size="13">F15 keyboard input is sent locally every 45 seconds</text>
+
+  <rect x="130" y="656" width="860" height="88" rx="17" fill="#0c1725" stroke="#1d3343" stroke-width="2"/>
+  <path d="M160 700h8l6-11 8 22 7-14h8" fill="none" stroke="#52e5c4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="217" y="694" fill="#e8f1f6" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Teams status will stay active while Transluxion is open</text>
+  <text x="217" y="719" fill="#869aab" font-family="Segoe UI, Arial, sans-serif" font-size="14">Transluxion sends local keyboard input every 45 seconds.</text>
+  <text x="953" y="707" text-anchor="end" fill="#526b7c" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="1">ON DEVICE</text>
+
+  <rect x="130" y="774" width="860" height="72" rx="17" fill="url(#accent)"/>
+  <rect x="154" y="791" width="36" height="36" rx="10" fill="#06251f" fill-opacity=".14"/>
+  <rect x="168" y="800" width="4" height="18" rx="2" fill="#06372e"/>
+  <rect x="176" y="800" width="4" height="18" rx="2" fill="#06372e"/>
+  <text x="213" y="818" fill="#04231e" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="1.2">PAUSE SESSION</text>
+  <text x="963" y="817" text-anchor="end" fill="#064337" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">INPUT CONTROL</text>
+
+  <text x="130" y="873" fill="#526579" font-family="Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="1.1">TRANSLUXION  /  WINDOWS DESKTOP</text>
+  <text x="990" y="873" text-anchor="end" fill="#526579" font-family="Consolas, monospace" font-size="12">01.00</text>
+</svg>
