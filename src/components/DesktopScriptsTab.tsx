@@ -126,7 +126,7 @@ export const DesktopScriptsTab: React.FC = () => {
             <div className="mt-5 flex items-start gap-3 rounded-xl border border-slate-800 bg-slate-950/70 p-4">
               <ShieldCheck className="mt-0.5 h-4 w-4 shrink-0 text-emerald-300" />
               <p className="text-xs leading-5 text-slate-400">
-                It sends F15 keyboard input locally every 45 seconds. It does not read or verify Teams presence.
+                It sends F15 keyboard input locally every 45 seconds.
               </p>
             </div>
             <p className="mt-3 text-[11px] leading-5 text-slate-500">UI mockup preview. The Windows app has the same overall layout; macOS version is coming soon.</p>

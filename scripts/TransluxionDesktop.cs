@@ -199,7 +199,7 @@ internal sealed class TransluxionWindow : Form
         toggleButton.Click += ToggleService;
         Controls.Add(toggleButton);
 
-        footerStatus = CreateLabel("TRANSLUXION  /  WINDOWS DESKTOP", new Point(24, 456), new Size(360, 15), 7, FontStyle.Regular, Color.FromArgb(82, 101, 121));
+        footerStatus = CreateLabel("DEVELOPED BY PFANO SINYELA", new Point(24, 456), new Size(360, 15), 7, FontStyle.Regular, Color.FromArgb(82, 101, 121));
         Controls.Add(footerStatus);
 
         pulseTimer = new Timer { Interval = 1000 };
